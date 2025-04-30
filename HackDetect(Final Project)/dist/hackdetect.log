@@ -1,0 +1,82 @@
+ERROR:root:An error occurred: 'EnhancedUI' object has no attribute 'create_menu'
+Traceback (most recent call last):
+  File "HackDetect.py", line 397, in main
+  File "HackDetect.py", line 344, in run_game
+  File "HackDetect.py", line 260, in play_round
+AttributeError: 'EnhancedUI' object has no attribute 'create_menu'
+ERROR:root:An error occurred: 'EnhancedUI' object has no attribute 'create_menu'
+Traceback (most recent call last):
+  File "HackDetect.py", line 397, in main
+  File "HackDetect.py", line 344, in run_game
+  File "HackDetect.py", line 260, in play_round
+AttributeError: 'EnhancedUI' object has no attribute 'create_menu'
+ERROR:root:An error occurred: Cannot choose from an empty sequence
+Traceback (most recent call last):
+  File "HackDetect.py", line 416, in main
+  File "HackDetect.py", line 363, in run_game
+  File "HackDetect.py", line 284, in play_round
+  File "HackDetect.py", line 246, in generate_clue
+  File "random.py", line 351, in choice
+IndexError: Cannot choose from an empty sequence
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'run_game'
+Traceback (most recent call last):
+  File "HackDetect.py", line 441, in main
+AttributeError: 'HackerGame' object has no attribute 'run_game'
+ERROR:root:An error occurred: 'AnsiFore' object has no attribute 'DARKGRAY'
+Traceback (most recent call last):
+  File "HackDetect.py", line 477, in main
+  File "HackDetect.py", line 424, in run_game
+  File "HackDetect.py", line 301, in play_round
+AttributeError: 'AnsiFore' object has no attribute 'DARKGRAY'
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'regular_player_turn'
+Traceback (most recent call last):
+  File "HackDetect.py", line 633, in main
+  File "HackDetect.py", line 580, in run_game
+  File "HackDetect.py", line 432, in play_round
+AttributeError: 'HackerGame' object has no attribute 'regular_player_turn'
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'regular_player_turn'
+Traceback (most recent call last):
+  File "HackDetect.py", line 633, in main
+  File "HackDetect.py", line 580, in run_game
+  File "HackDetect.py", line 432, in play_round
+AttributeError: 'HackerGame' object has no attribute 'regular_player_turn'
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'regular_player_turn'
+Traceback (most recent call last):
+  File "HackDetect.py", line 633, in main
+  File "HackDetect.py", line 580, in run_game
+  File "HackDetect.py", line 432, in play_round
+AttributeError: 'HackerGame' object has no attribute 'regular_player_turn'
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'regular_player_turn'
+Traceback (most recent call last):
+  File "HackDetect.py", line 633, in main
+  File "HackDetect.py", line 580, in run_game
+  File "HackDetect.py", line 432, in play_round
+AttributeError: 'HackerGame' object has no attribute 'regular_player_turn'
+ERROR:root:An error occurred: 'HackerGame' object has no attribute 'packet_sniffer_effect'
+Traceback (most recent call last):
+  File "HackDetect.py", line 913, in main
+  File "HackDetect.py", line 211, in __init__
+AttributeError: 'HackerGame' object has no attribute 'packet_sniffer_effect'
+ERROR:root:An error occurred: module 'pygame.math' has no attribute 'sin'
+Traceback (most recent call last):
+  File "HackDetect.py", line 1279, in main
+  File "HackDetect.py", line 379, in __init__
+  File "HackDetect.py", line 20, in __init__
+  File "HackDetect.py", line 42, in load_sounds
+  File "HackDetect.py", line 58, in create_simple_sound
+AttributeError: module 'pygame.math' has no attribute 'sin'
+ERROR:root:An error occurred: 'SoundEffects' object has no attribute 'load_sounds'
+Traceback (most recent call last):
+  File "HackDetect.py", line 1254, in main
+  File "HackDetect.py", line 354, in __init__
+  File "HackDetect.py", line 21, in __init__
+AttributeError: 'SoundEffects' object has no attribute 'load_sounds'
+ERROR:root:An error occurred: Array depth must match number of mixer channels
+Traceback (most recent call last):
+  File "HackDetect.py", line 1280, in main
+  File "HackDetect.py", line 380, in __init__
+  File "HackDetect.py", line 21, in __init__
+  File "HackDetect.py", line 43, in load_sounds
+  File "HackDetect.py", line 61, in create_simple_sound
+  File "pygame\sndarray.py", line 92, in make_sound
+ValueError: Array depth must match number of mixer channels
